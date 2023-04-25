@@ -1,0 +1,14 @@
+input{
+    margin-bottom: 40px;
+}
+
+select{
+    margin-bottom: 30px;
+}
+
+input[type="button"]{
+    color: black;
+    background-color: red;
+    border: none;
+    cursor: pointer;/* Hace que el cursor cambie cuando lo paso por arriba*/
+}

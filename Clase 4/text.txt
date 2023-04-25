@@ -1,0 +1,16 @@
+SELECTOR
+
+
+ETIQUETA
+Clase
+id
+
+1- <styles/>
+2- inline styles
+3- stylesheet
+
+<link rel="stylesheet" href="./styles.css"/> 
+
+dentro de etiqueta de linea style="color: red; font-size: 100px;"
+
+Usar inspeccionar pagina -> Header para ver styles
