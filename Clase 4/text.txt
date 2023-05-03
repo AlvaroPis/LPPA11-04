@@ -1,10 +1,24 @@
-SELECTOR
+SELECTORES:
 
-
-ETIQUETA
+Elemento
 Clase
 id
+Atributo
+Pseudoclases
+Operadores
+Compuestos
+ETIQUETA
 
+compuestos-> # ul li a{} (todos los a que son hijos de li que a su vez sean hijos de ul que tengan el id #)(el target es a lo demas es restringido)(el espacio significa que es hijo de)
+
+a.violeta (los hipervinculos que tengan la clase violeta)
+a .violeta (la clase violeta que sean hijos de los hipervinculos)
+p.negrita li a.violeta (los hipervinculos que tengan la clase violeta que sean hijos de li y que sean hijos de los parrafos que tengan la clase negrita)
+
+<div> es el elemento de bloque que no tiene semantica
+<span> es el elemento de linea que no tiene semantica
+
+Formas de aplicar estilos:
 1- <styles/>
 2- inline styles
 3- stylesheet
@@ -14,3 +28,27 @@ id
 dentro de etiqueta de linea style="color: red; font-size: 100px;"
 
 Usar inspeccionar pagina -> Header para ver styles
+
+CSS Specificity (IMAGEN)
+
+p -> ul ->li
+
+
+Web Responsive Devices (Netamente html y CSS)
+Dispositivos de tamaños:
+XS/S/M/LG
+
+Layout: formato en el que ordenamos las cosas para cierta pantalla
+Responsive: Los Layout pueden ser Flexible / Breakpoints
+
+Los documentos sin CSS son Flexibles.
+Los documentos flexibles con CSS se hacen con float o tablas (obsoletas)
+Flexbox / Grid (No se ve)
+Breakpoints:
+Media Query (Aplicar algo a todo pero hacer en cascada)
+Mobile First / Desktop First 
+
+Viewport es indispensable en Responsive
+
+
+Flexbox
