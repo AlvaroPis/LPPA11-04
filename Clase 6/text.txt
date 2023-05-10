@@ -1,0 +1,18 @@
+LAYOUTS 
+
+Usar colores en los divs para manejar flexbox 
+Jugar al Flexbox Froggy  
+Media queries   https://developer.mozilla.org/es/docs/Web/CSS/Media_Queries/Using_media_queries son restrictivos 
+
+El tp del diario se hace con screen 
+Unidades absolutas y relativas 
+
+v.W v.H / 10% 20% / 10 20
+
+Propiedad 
+-Display (Por defecto es en linea o bloque)  Display: flex/none 
+-Position (Por defecto es relativo) Position: relative/ https://developer.mozilla.org/en-US/docs/Web/CSS/position
+
+
+Rutas relativas y absolutas .. //
+
