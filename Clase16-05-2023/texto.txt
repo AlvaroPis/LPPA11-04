@@ -1,0 +1,29 @@
+Parcial
+
+HTML 
+Partes de un Elemento
+Semantica
+Bloque/Linea-Contenido/Flujo Natural
+Estructura/Layout
+Otros: viewport/Link/Estilos en linea 
+
+CSS
+Partes de una Regla
+Selectores->Precedencia
+            ->Tipo
+Box Model
+Tipos de Propiedades (Box model, fuente)
+Unidades de Medida
+Layout
+Flexbox
+Media Queries
+
+
+------------------------------------------------------------------------------------------
+
+Tipo de Datos   -> string/number/boolean/object/function/undefined
+
+Diferente tipos de Datos (string/number/boolean/object)
+Diferente tipos de Clases (string/number/boolean/object/date/array/)
+Tipos de operadores
+Crear y usar Funciones 
