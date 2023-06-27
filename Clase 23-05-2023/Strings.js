@@ -1,4 +1,4 @@
-console.log('Ejercicio 2')
+console.log('                 Ejercicio 2')
 console.log('Ejercicio a)')
 var a = ('El perro esta jugando')
 console.log(a.toUpperCase())

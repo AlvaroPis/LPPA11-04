@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css"/>
+</head>
+<body>
+    <div class="containter">
+        <form id="myForm" onsubmit="return validateForm()">
+        <div class="separador">
+          <label for="nombre">Nombre completo:</label>
+          <input type="text" id="nombre" name="nombre" onblur="validateNombre()" onfocus="clearError('nombreError')">
+          <span id="nombreError" class="error"></span>
+        </div>
+        <div class="separador">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" onblur="validateEmail()" onfocus="clearError('emailError')">
+          <span id="emailError" class="error"></span>
+        </div>
+        <div class="separador">
+          <label for="password">Contraseña:</label>
+          <input type="password" id="password" name="password" onblur="validatePassword()" onfocus="clearError('passwordError')">
+          <span id="passwordError" class="error"></span>
+        </div>
+        <div class="separador">
+          <label for="edad">Edad:</label>
+          <input type="number" id="edad" name="edad" onblur="validateEdad()" onfocus="clearError('edadError')">
+          <span id="edadError" class="error"></span>
+        </div>
+        <div class="separador">
+          <label for="telefono">Teléfono:</label>
+          <input type="text" id="telefono" name="telefono" onblur="validateTelefono()" onfocus="clearError('telefonoError')">
+          <span id="telefonoError" class="error"></span>
+        </div>
+        <div class="separador">
+          <label for="direccion">Dirección:</label>
+          <input type="text" id="direccion" name="direccion" onblur="validateDireccion()" onfocus="clearError('direccionError')">
+          <span id="direccionError" class="error"></span>
+        </div>
+        <div class="separador">
+          <label for="ciudad">Ciudad:</label>
+          <input type="text" id="ciudad" name="ciudad" onblur="validateCiudad()" onfocus="clearError('ciudadError')">
+          <span id="ciudadError" class="error"></span>
+        </div>
+        <div class="separador">
+          <label for="codigoPostal">Código Postal:</label>
+          <input type="text" id="codigoPostal" name="codigoPostal" onblur="validateCodigoPostal()" onfocus="clearError('codigoPostalError')">
+          <span id="codigoPostalError" class="error"></span>
+        </div>
+        <div class="separador">
+          <label for="dni">DNI:</label>
+          <input type="text" id="dni" name="dni" onblur="validateDNI()" onfocus="clearError('dniError')">
+          <span id="dniError" class="error"></span>
+        </div>
+        <div>
+          <button type="submit">Enviar</button>
+        </div>
+      </form> </div>
+
+      <script src="./dom.js"></script>
+</body>
+</html>

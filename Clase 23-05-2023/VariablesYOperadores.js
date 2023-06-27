@@ -1,4 +1,4 @@
-console.log('Ejercicio 1')
+console.log('                 Ejercicio 1')
 var a = 1
 var b = 2
 var resultado = (a+b)
