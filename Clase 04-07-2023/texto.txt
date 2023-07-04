@@ -1,0 +1,23 @@
+Pasos Simon:
+1) Conocer el juego: reglas y nuestra versiòn
+    a) Investigar sobre el juego
+    b) Nuestra versiòn y adaptaciòn que vamos a hacer
+    - 1 Solo jugador
+    - Nuveles Infinitos
+    - Tiempo
+    - Puntaje: Sume cada botón apretado correctamente (Por secuencia o por cada boton apretado)
+2) Diseño Web
+    - Dispositivo Simon
+    - Información
+    - Controles del juego (Botones del juego)
+    - Layout
+3) Programar
+    - Estructura (HTML)
+    - Diseño (CSS)
+    - Funcionalidad (JS)
+        - Click en boton (Feedback)
+        - Cada 3 segundos debe mostrar un boton aleatorio  (Y va a quedar activado por 1 segundo)
+
+
+HACER HASTA EL TP 10 / TP 11 SI QUEREMOS PARA DEJAR EN EL REPO DE GITHUB
+
