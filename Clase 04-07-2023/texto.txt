@@ -21,3 +21,7 @@ Pasos Simon:
 
 HACER HASTA EL TP 10 / TP 11 SI QUEREMOS PARA DEJAR EN EL REPO DE GITHUB
 
+1 Lograr que la secuecia recuerde que colores elige (Array secuencia)
+2 La secuencia repite estados e incrementa en un nuevo estado(color) aleatorio
+3 La secuencia es incremental y se incrementa con el click (Idem anterior pero se dispara con el click)
+4 Activar o Desactivar los botones de Comenzar o Reset
