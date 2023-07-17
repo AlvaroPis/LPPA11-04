@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rosario3</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <main>
+        <form action="DOM.js">
+            <h1 id="tittle-from">FORMULARIO</h1>
+            <section id="form-content">
+                <section id="left-form">
+                    <div>
+                        <label for="userName">Nombre Completo:</label>
+                        <input type="text" placeholder="nombre y apellido" id="userName" required>
+                    </div>
+                    <div>
+                        <label for="email">Email:</label>
+                        <input type="email" placeholder="@example.com" id="email" required>
+                    </div>
+                    <div>
+                        <label for="pass">Contraseña:</label>
+                        <input type="password" placeholder="contraseña" id="pass" required>
+                    </div>
+                    <div>
+                        <label for="pass2">Confirme Contraseña:</label>
+                        <input type="password" placeholder="contraseña" id="pass2" required>
+                    </div>
+                    <div>
+                        <label for="age">Edad:</label>
+                        <input type="number" placeholder="edad" id="age" required>
+                    </div>
+
+                </section>
+                <section id="right-form">
+                    <div>
+                        <label for="tel">Telefono:</label>
+                        <input type="tel" placeholder="+341..." id="tel" required>
+                    </div>
+                    <div>
+                        <label for="adresse">Dirección:</label>
+                        <input type="text" placeholder="Direccion 123" id="adress" required>
+                    </div>
+                    <div>
+                        <label for="city">Ciudad:</label>
+                        <input type="text" placeholder="Rosario" id="city" required>
+                    </div>
+                    <div>
+                        <label for="postal">Código Postal:</label>
+                        <input type="text" placeholder="1000" id="postal" required>
+                    </div>
+                    <div>
+                        <label for="dni">DNI:</label>
+                        <input type="number" placeholder="sin puntos" id="dni" required>
+                    </div>
+                </section>
+            </section>
+            <div class="form-btn">
+                <button type="button" id="btn-close">Cerrar formulario</button>
+                <button type="button" id="btn-sbt">Enviar formulario</button>
+            </div>
+        </form>
+        <button id="btn-subs">INVOCAR FORMULARIO</button>
+    </main>
+    <script src="./DOM.js"></script>
+</body>
+
+</html>
