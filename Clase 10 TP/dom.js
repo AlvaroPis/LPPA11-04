@@ -1,5 +1,3 @@
-var butt = document.getElementById('btn-sbt');
-
 function inputError(param, msg) {
     param.style.border = '1px solid red';
     var div = document.createElement('div');
