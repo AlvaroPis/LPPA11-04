@@ -64,7 +64,7 @@ function updateLevelText(){
 function animateButton(color) {
     const button = document.querySelector(`.Boton.${color}`);
     button.classList.add("active-border");
-    setTimeout(() => {
+    setTimeout(function() {
       button.classList.remove("active-border");
     }, 1000);
 }
@@ -73,12 +73,12 @@ function animarSecuencia() {
     turnoTexto.textContent = "Aguarde, aún no es su turno...";
     secuenciaEnProgreso  = true;
     let i = 0;
-    const interval = setInterval(() => {
+    const interval = setInterval(function() {
         animateButton(Secuencia[i]);
         i++;
          if (i >= Secuencia.length) {
           clearInterval(interval);
-          setTimeout(() => {
+          setTimeout(function() {
             secuenciaEnProgreso = false;
             turnoTexto.textContent = "Ahora es su turno";
           }, 1000);
@@ -105,7 +105,7 @@ function chequearSecuencia() {
   
     if (Jugador.length === Secuencia.length) {
         Puntuacion++;
-             setTimeout(() => {
+             setTimeout(function() {
                  nextLevel();
              }, 3000);
     }
